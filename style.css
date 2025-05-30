@@ -1,0 +1,125 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f5f7; 
+    color: #2c3e50;
+    margin: 30px;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+body > * {
+    max-width: 800px;
+    width: 100%;
+}
+h1, h3, h4 {
+    color: #021930;
+    text-align: center;
+    margin-bottom: 10px;
+}
+img {
+    display: block;
+    margin: 0 auto 25px auto;
+    border-radius: 25px;
+    box-shadow: 8px 8px 12px rgba(44, 62, 80, 0.15);
+    max-width: 200px;
+    height: auto;
+}
+fieldset {
+    border: 1.5px solid #a9c4d9;
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 5px 2px 5px rgba(44, 62, 80, 0.1);
+}
+legend {
+    font-weight: 700;
+    color: #3a5068;
+    padding: 0 10px;
+}
+ul, ol {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 5px 2px 5px rgba(44, 62, 80, 0.05);
+}
+table {
+    text-align: center;
+    width: 100%;
+    border-collapse: collapse;
+    margin: 25px 0;
+    box-shadow: 5px 2px 8px rgba(44, 62, 80, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+table th, table td {
+    padding: 12px 15px;
+    text-align: left;
+    background-color: #ffffff;
+    border-bottom: 1px solid #dbe6ef;
+}
+table th {
+    background-color: #4a90e2;
+    color: white;
+}
+form {
+    background-color: #ffffff;
+    padding: 25px 30px;
+    border-radius: 30px;
+    border: 1.5px solid #a9c4d9;
+    box-shadow: 0 4px 12px rgba(74, 144, 226, 0.2);
+    max-width: 400px;
+    margin: 30px auto 40px auto;
+    display: flex;
+    flex-direction: column;
+}
+form label {
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 6px;
+    color: #2c3e50;
+}
+input[type="text"],
+input[type="tel"] {
+    padding: 10px;
+    margin-bottom: 18px;
+    border: 1.5px solid #a9c4d9;
+    border-radius: 30px;
+    font-size: 1em;
+    transition: border-color 0.3s ease;
+}
+input[type="text"]:focus,
+input[type="tel"]:focus {
+    border-color: #4a90e2;
+    outline: none;
+}
+input[type="submit"],
+input[type="reset"] {
+    background-color: #4a90e2;
+    color: #fff;
+    border: none;
+    padding: 12px 0;
+    margin-top: 10px;
+    border-radius: 30px;
+    font-weight: 700;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: #356ac3;
+    animation: both;
+}
+a:hover {
+    image-rendering: auto;
+}
+footer {
+    text-align: center;
+    padding: 25px 0;
+    color: #4a6572;
+    font-size: 0.9em;
+    border-top: 1px solid #a9c4d9;
+    margin-top: 50px;
+}
